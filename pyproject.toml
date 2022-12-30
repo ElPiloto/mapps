@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mapps"
+version = "0.1.0"
+description = ""
+authors = ["Luis Piloto <luis.r.piloto@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ipdb = "^0.13.11"
+parameterized = "^0.8.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
